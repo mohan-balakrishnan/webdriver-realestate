@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite" thread-count="2" verbose="1">
+	<test name="Login">
+    <classes>
+	<class name="com.learnerhub.testcases.TC003_PostProperty"/>
+      <class name="com.learnerhub.testcases.TC004_RentProperty"/>
+      <class name="com.learnerhub.apitestcases.RealEstateApiTest"/>
+    </classes>
+  </test> 
+</suite>
